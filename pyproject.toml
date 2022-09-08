@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lms-fast-api"
+version = "0.1.0"
+description = ""
+authors = ["prabhatexit0 <prabhatexit0@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lms_fast_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.18.3"
+fastapi = "^0.82.0"
+pydantic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
